@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div align="center">
+      <h1 class="h1">Employee Interests Survey form</h1>
+      <form>
+        <fieldset style="width: 25%; text-align: center">
+          <legend>Employee Information</legend>
+          <div class="info">
+            <label>*Enter your name:</label>
+            <input type="text" name="name" id="name" size="20" /><br /><br />
+            <label>*Enter your department: </label
+            ><input type="text" name="department" id="department" /><br /><br />
+            <label>*Tell us a little about yourself:</label
+            ><textarea
+              rows="3"
+              cols="30"
+              placeholder="Write something here"
+            ></textarea
+            ><br />
+            <br />
+            <label>*Do you exercise at home?</label
+            ><input type="radio" name="yes" id="yes" />Yes
+            <input type="radio" name="no" id="no" />No <br />
+            <br />
+            *How do you like to read about your favorite topics?<br />
+            <input type="checkbox" />Books <input type="checkbox" />Online
+            resources <input type="checkbox" />Phone apps
+            <input type="checkbox" />Magazines <br />
+            <br />
+            *What genre of movies do you like?
+            <select>
+              <option>comedy</option>
+              <option>War</option>
+              <option>Animation</option>
+              <option>Family</option>
+            </select>
+            <br />
+            <br />
+            <button type="reset" value="reset">Reset</button>
+            <button type="submit" value="submit">Submit Form</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
